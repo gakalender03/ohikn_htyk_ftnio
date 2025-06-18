@@ -25,7 +25,8 @@ jobs:
         node-version: '20.19.2'  #   Set your required Node.js version
 
     - name: Install dependencies (if any)
-      run: npm install  # Install dependencies if needed
+      run: npm install @cosmjs/proto-signing @cosmjs/stargate # Install dependencies if needed
+           
 
     - name: Run Node.js script from private repo
       env:
