@@ -25,7 +25,7 @@ jobs:
         node-version: '20.19.2'  #   Set your required Node.js version
 
     - name: Install dependencies (if any)
-      run: npm install @cosmjs/stargate @cosmjs/crypto
+      run: npm install @cosmjs/proto-signing @cosmjs/encoding
 
  # Install dependencies if needed
            
