@@ -34,5 +34,5 @@ jobs:
       env:
           SEI_RPC: ${{ secrets.SEI_RPC }}
           PRIVATE_KEYS: ${{ secrets.PRIVATE_KEYS }}
-      run: node bridgeholes.js  # Run the script from the private repo
+      run: node bridgebnb.js  # Run the script from the private repo
       continue-on-error: true
